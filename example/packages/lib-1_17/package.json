@@ -1,0 +1,11 @@
+{
+  "name": "lib-1_17",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node ../../fake-build.js 1167",
+    "test": "node ../../fake-build.js",
+    "lint": "node ../../fake-build.js"
+  },
+  "dependencies": {}
+}

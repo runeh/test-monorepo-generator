@@ -1,0 +1,14 @@
+{
+  "name": "helper-lib-2_02",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node ../../fake-build.js 1290",
+    "test": "node ../../fake-build.js",
+    "lint": "node ../../fake-build.js"
+  },
+  "dependencies": {
+    "lib-1_18": "1.0.0",
+    "lib-1_05": "1.0.0"
+  }
+}

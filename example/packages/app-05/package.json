@@ -1,0 +1,17 @@
+{
+  "name": "app-05",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node ../../fake-build.js 1272",
+    "test": "node ../../fake-build.js",
+    "lint": "node ../../fake-build.js"
+  },
+  "dependencies": {
+    "lib-1_06": "1.0.0",
+    "lib-1_10": "1.0.0",
+    "lib-1_13": "1.0.0",
+    "lib-1_14": "1.0.0",
+    "lib-1_01": "1.0.0"
+  }
+}

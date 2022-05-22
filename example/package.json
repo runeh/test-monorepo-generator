@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build-yarn1": "echo \"yarn 1 can\t build topological out of the box\"",
+    "build-yarn2": "yarn workspaces foreach --topological-dev --parallel --verbose run build",
+    "build-oao": "npx oao run-script --tree --parallel build"
+  },
+  "devDependencies": {}
+}

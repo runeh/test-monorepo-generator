@@ -1,0 +1,23 @@
+{
+  "name": "app-08",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node ../../fake-build.js 1920",
+    "test": "node ../../fake-build.js",
+    "lint": "node ../../fake-build.js"
+  },
+  "dependencies": {
+    "helper-lib-2_01": "1.0.0",
+    "helper-lib-2_02": "1.0.0",
+    "lib-1_05": "1.0.0",
+    "lib-1_07": "1.0.0",
+    "lib-1_08": "1.0.0",
+    "lib-1_13": "1.0.0",
+    "lib-1_14": "1.0.0",
+    "helper-lib-2_03": "1.0.0",
+    "lib-1_15": "1.0.0",
+    "helper-lib-2_04": "1.0.0",
+    "lib-1_01": "1.0.0"
+  }
+}
